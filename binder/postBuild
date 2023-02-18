@@ -9,8 +9,17 @@ python3 -m logtalk_kernel.install
 #apt-get update
 #apt-get install swi-prolog
 
-#wget https://logtalk.org/files/logtalk_3.62.0-1_all.deb
-#sudo dpkg -i logtalk_3.62.0-1_all.deb
+git clone --depth 1 https://github.com/trealla-prolog/trealla
+cd trealla
+make clean && make NOSSL=1
+echo 'export PATH=$PATH:$HOME/trealla' >> $HOME/.profile
+cd ~
+
+git clone --depth 1 https://github.com/didoudiaz/gprolog
+cd gprolog/src
+./configure --prefix=/in-place && make && make install
+echo 'export PATH=$PATH:$HOME/gprolog/bin' >> $HOME/.profile
+cd ~
 
 git clone --depth 1 https://github.com/LogtalkDotOrg/logtalk3.git
 
