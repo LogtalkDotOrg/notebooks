@@ -8,3 +8,4 @@ Logtalk demo Jupyter notebooks
 - GNU Prolog
 - SWI-Prolog
 - Trealla Prolog
+- YAP
