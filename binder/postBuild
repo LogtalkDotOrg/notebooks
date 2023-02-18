@@ -12,10 +12,10 @@ set -e
 
 git clone --depth 1 https://github.com/LogtalkDotOrg/logtalk3.git
 
-export LOGTALKHOME=$HOME/logtalk3
-export LOGTALKUSER=$HOME/logtalk3
-export PATH=$PATH:$LOGTALKHOME/tools/diagrams
-export PATH=$PATH:$LOGTALKHOME/tools/lgtdoc/xml
-export PATH=$PATH:$LOGTALKHOME/scripts
-export PATH=$PATH:$LOGTALKHOME/integration
-export MANPATH=$MANPATH:$LOGTALKHOME/man
+echo LOGTALKHOME=$HOME/logtalk3 >> $HOME/.profile
+echo LOGTALKUSER=$HOME/logtalk3 >> $HOME/.profile
+echo PATH=$PATH:$LOGTALKHOME/tools/diagrams >> $HOME/.profile
+echo PATH=$PATH:$LOGTALKHOME/tools/lgtdoc/xml >> $HOME/.profile
+echo PATH=$PATH:$LOGTALKHOME/scripts >> $HOME/.profile
+echo PATH=$PATH:$LOGTALKHOME/integration >> $HOME/.profile
+echo MANPATH=$MANPATH:$LOGTALKHOME/man >> $HOME/.profile
