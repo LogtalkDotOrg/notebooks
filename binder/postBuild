@@ -2,10 +2,10 @@
 
 set -e
 
-sudo apt-get install software-properties-common
-sudo apt-add-repository ppa:swi-prolog/stable
-sudo apt-get update
-sudo apt-get install swi-prolog
+apt-get install software-properties-common
+apt-add-repository ppa:swi-prolog/stable
+apt-get update
+apt-get install swi-prolog
 
 wget https://logtalk.org/files/logtalk_3.62.0-1_all.deb
 dpkg -i logtalk_3.62.0-1_all.deb
