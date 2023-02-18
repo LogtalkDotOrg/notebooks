@@ -21,6 +21,21 @@ cd gprolog/src
 echo 'export PATH=$PATH:$HOME/gprolog/bin' >> $HOME/.profile
 cd ~
 
+#mkdir eclipse
+#cd eclipse
+#wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/eclipse_basic.tgz
+#tar xpfz eclipse_basic.tgz
+#cd eclipse_basic
+#cd ~
+
+git clone --depth 1 https://github.com/vscosta/yap
+cd yap
+mkdir build
+cd build
+cmake .. && make
+echo 'export PATH=$PATH:$HOME/yap/build' >> $HOME/.profile
+cd ~
+
 git clone --depth 1 https://github.com/LogtalkDotOrg/logtalk3.git
 
 echo 'export LOGTALKHOME=$HOME/logtalk3' >> $HOME/.profile
