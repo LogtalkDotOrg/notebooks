@@ -2,6 +2,8 @@
 
 set -e
 
+python3 -m logtalk_kernel.install
+
 #apt-get install software-properties-common
 #apt-add-repository ppa:swi-prolog/stable
 #apt-get update

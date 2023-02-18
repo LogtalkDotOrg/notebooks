@@ -1,1 +1,2 @@
 logtalk-jupyter-kernel
+graphviz
