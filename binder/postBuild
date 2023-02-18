@@ -7,5 +7,15 @@ set -e
 #apt-get update
 #apt-get install swi-prolog
 
-wget https://logtalk.org/files/logtalk_3.62.0-1_all.deb
-sudo dpkg -i logtalk_3.62.0-1_all.deb
+#wget https://logtalk.org/files/logtalk_3.62.0-1_all.deb
+#sudo dpkg -i logtalk_3.62.0-1_all.deb
+
+git clone --depth 1 https://github.com/LogtalkDotOrg/logtalk3.git
+
+export LOGTALKHOME=$HOME/logtalk3
+export LOGTALKUSER=$HOME/logtalk3
+export PATH=$PATH:$LOGTALKHOME/tools/diagrams
+export PATH=$PATH:$LOGTALKHOME/tools/lgtdoc/xml
+export PATH=$PATH:$LOGTALKHOME/scripts
+export PATH=$PATH:$LOGTALKHOME/integration
+export MANPATH=$MANPATH:$LOGTALKHOME/man
