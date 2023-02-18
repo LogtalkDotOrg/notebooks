@@ -8,4 +8,4 @@ set -e
 #apt-get install swi-prolog
 
 wget https://logtalk.org/files/logtalk_3.62.0-1_all.deb
-dpkg -i logtalk_3.62.0-1_all.deb
+sudo dpkg -i logtalk_3.62.0-1_all.deb
