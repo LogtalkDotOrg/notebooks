@@ -28,13 +28,13 @@ cd ~
 #cd eclipse_basic
 #cd ~
 
-git clone --depth 1 https://github.com/vscosta/yap
-cd yap
-mkdir build
-cd build
-cmake .. && make
-echo 'export PATH=$PATH:$HOME/yap/build' >> $HOME/.profile
-cd ~
+#git clone --depth 1 https://github.com/vscosta/yap
+#cd yap
+#mkdir build
+#cd build
+#cmake .. && make
+#echo 'export PATH=$PATH:$HOME/yap/build' >> $HOME/.profile
+#cd ~
 
 git clone --depth 1 https://github.com/LogtalkDotOrg/logtalk3.git
 
