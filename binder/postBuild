@@ -14,10 +14,10 @@ python3 -m logtalk_kernel.install
 
 git clone --depth 1 https://github.com/LogtalkDotOrg/logtalk3.git
 
-echo LOGTALKHOME=$HOME/logtalk3 >> $HOME/.profile
-echo LOGTALKUSER=$HOME/logtalk3 >> $HOME/.profile
-echo PATH=$PATH:$LOGTALKHOME/tools/diagrams >> $HOME/.profile
-echo PATH=$PATH:$LOGTALKHOME/tools/lgtdoc/xml >> $HOME/.profile
-echo PATH=$PATH:$LOGTALKHOME/scripts >> $HOME/.profile
-echo PATH=$PATH:$LOGTALKHOME/integration >> $HOME/.profile
-echo MANPATH=$MANPATH:$LOGTALKHOME/man >> $HOME/.profile
+echo "export LOGTALKHOME=$HOME/logtalk3" >> $HOME/.profile
+echo "export LOGTALKUSER=$HOME/logtalk3" >> $HOME/.profile
+echo "export PATH=$PATH:$LOGTALKHOME/tools/diagrams" >> $HOME/.profile
+echo "export PATH=$PATH:$LOGTALKHOME/tools/lgtdoc/xml" >> $HOME/.profile
+echo "export PATH=$PATH:$LOGTALKHOME/scripts" >> $HOME/.profile
+echo "export PATH=$PATH:$LOGTALKHOME/integration" >> $HOME/.profile
+echo "export MANPATH=$MANPATH:$LOGTALKHOME/man" >> $HOME/.profile
