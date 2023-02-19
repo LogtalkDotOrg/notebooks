@@ -31,13 +31,13 @@ mkdir eclipse
 cd eclipse
 wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20src%20Sources/eclipse_src.tgz
 tar xpfz eclipse_src.tgz
-cd eclipse_src
+cd Eclipse_7.1_13
 export ECLIPSEARCH=x86_64_linux
 export ARCH=x86_64_linux
 export ECLIPSETHIRDPARTY=/usr/lib
 ./configure --without-osi --without-cplex --without-xpress --without-gurobi --without-gfd --without-java --without-flexlm --without-graphviz --without-mysql --without-cpviz
 make -f Makefile.$ECLIPSEARCH
-echo 'export PATH=$PATH:$HOME/eclipse/bin/x86_64_linux' >> $HOME/.profile
+echo 'export PATH=$PATH:$HOME/eclipse/Eclipse_7.1_13/bin/x86_64_linux' >> $HOME/.profile
 cd ~
 
 #git clone --depth 1 https://github.com/vscosta/yap
