@@ -25,3 +25,5 @@ libpcre2-dev
 libyaml-dev
 default-jdk
 junit4
+tcl
+tk
