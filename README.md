@@ -1,6 +1,6 @@
 # Logtalk Jupyter notebooks
 
-If you're now to Jupyter notebooks, start by opening and playing with the
+If you're new to Jupyter notebooks, start by opening and playing with the
 `JupyterKernelForLogtalkOverview.ipynb` notebook. If you're new to Logtalk,
 start with the `LogtalkTutorial.ipynb` notebook.
 
