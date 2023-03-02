@@ -17,8 +17,8 @@ allows you to save and share the notebooks you create.
 Online at https://mybinder.org you can currently use:
 
 - GNU Prolog 1.5.1
-- SWI-Prolog 9.1.6 (default)
-- Trealla Prolog 2.10.14
+- SWI-Prolog 9.1.7 (default)
+- Trealla Prolog 2.11.17
 
 Local installation of the kernel supports several other Prolog backends.
 See the kernel repo for details.
@@ -37,8 +37,8 @@ repo.
 
 ## Prolog notebooks
 
-You can also create, play, and share Prolog notebooks. Taking into account
-that the Binder support files are work-in-progress:
+You can also create, play, and share Prolog notebooks using your own URL.
+Taking into account that the Binder support files are work-in-progress:
 
 1. Create a git repo for your notebooks.
 2. Visit the https://github.com/LogtalkDotOrg/notebooks repo and copy the
