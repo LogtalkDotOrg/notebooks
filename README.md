@@ -17,8 +17,8 @@ allows you to save and share the notebooks you create.
 Online at https://mybinder.org you can currently use:
 
 - GNU Prolog 1.5.1
-- SWI-Prolog 9.1.7 (default)
-- Trealla Prolog 2.11.17
+- SWI-Prolog 9.1.10 (default)
+- Trealla Prolog 2.17.7
 
 Local installation of the kernel supports several other Prolog backends.
 See the kernel repo for details.
@@ -26,14 +26,12 @@ See the kernel repo for details.
 ## Switching between backends
 
 1. Add a code cell at the top of a notebook.
-2. Type `gnu.` to switch to GNU Prolog, `swi.` to switch to SWI-Prolog (but this is the default backend), or `trealla.`
-to switch to Trealla Prolog.
+2. Type `gnu.` to switch to GNU Prolog, `swi.` to switch to SWI-Prolog (but this is the default backend), or `trealla.` to switch to Trealla Prolog.
 3. Select the cell and execute it (by typing, by default, Shift-Enter).
 
 ## Contributions
 
-Open issues or create merge requests in the https://github.com/LogtalkDotOrg/notebooks
-repo.
+Contributions are most welcome. Open issues or create merge requests in the https://github.com/LogtalkDotOrg/notebooks repo.
 
 ## Prolog notebooks
 
