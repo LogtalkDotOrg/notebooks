@@ -16,9 +16,9 @@ allows you to save and share the notebooks you create.
 
 Online at https://mybinder.org you can currently use:
 
-- GNU Prolog 1.5.1
-- SWI-Prolog 9.1.10 (default)
-- Trealla Prolog 2.17.7
+- GNU Prolog 1.6.0
+- SWI-Prolog 9.1.15 (default)
+- Trealla Prolog 2.27.27
 
 Local installation of the kernel supports several other Prolog backends.
 See the kernel repo for details.
