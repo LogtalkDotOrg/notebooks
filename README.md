@@ -20,18 +20,21 @@ Online at https://mybinder.org you can currently use:
 - SWI-Prolog 9.1.15 (default)
 - Trealla Prolog 2.27.27
 
-Local installation of the kernel supports several other Prolog backends.
-See the kernel repo for details.
+Local installation of the kernel supports several other Prolog backends. See
+the kernel repo for details. Limitations in the Docker images used by Binder
+currently prevent installing other Prolog backends supported by the kernel.
 
 ## Switching between backends
 
 1. Add a code cell at the top of a notebook.
-2. Type `gnu.` to switch to GNU Prolog, `swi.` to switch to SWI-Prolog (but this is the default backend), or `trealla.` to switch to Trealla Prolog.
+2. Type `gnu.` to switch to GNU Prolog, `swi.` to switch to SWI-Prolog (but
+this is the default backend), or `trealla.` to switch to Trealla Prolog.
 3. Select the cell and execute it (by typing, by default, Shift-Enter).
 
 ## Contributions
 
-Contributions are most welcome. Open issues or create merge requests in the https://github.com/LogtalkDotOrg/notebooks repo.
+Contributions are most welcome. Open issues or create merge requests in the
+https://github.com/LogtalkDotOrg/notebooks repo.
 
 ## Prolog notebooks
 
