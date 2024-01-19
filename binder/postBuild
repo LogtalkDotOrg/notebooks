@@ -21,7 +21,7 @@ cd gprolog/src
 echo 'export PATH=$PATH:$HOME/gprolog/bin' >> $HOME/.profile
 cd ~
 
-git clone --depth 1 --branch V9.1.15 https://github.com/SWI-Prolog/swipl-devel.git
+git clone --depth 1 --branch V9.1.21 https://github.com/SWI-Prolog/swipl-devel.git
 cd swipl-devel
 git submodule update --init
 mkdir build
