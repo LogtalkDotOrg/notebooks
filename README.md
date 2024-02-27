@@ -16,6 +16,7 @@ allows you to save and share the notebooks you create.
 
 Online at https://mybinder.org you can currently use:
 
+- ECLiPSe 7.1#13
 - GNU Prolog 1.6.0 (git version)
 - SWI-Prolog 9.3.1 (default)
 - Trealla Prolog 2.43.11
