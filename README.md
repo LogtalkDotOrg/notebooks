@@ -16,9 +16,9 @@ allows you to save and share the notebooks you create.
 
 Online at https://mybinder.org you can currently use:
 
-- GNU Prolog 1.6.0
-- SWI-Prolog 9.1.15 (default)
-- Trealla Prolog 2.27.27
+- GNU Prolog 1.6.0 (git version)
+- SWI-Prolog 9.3.1 (default)
+- Trealla Prolog 2.43.11
 
 Local installation of the kernel supports several other Prolog backends. See
 the kernel repo for details. Limitations in the Docker images used by Binder
