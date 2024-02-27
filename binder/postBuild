@@ -4,16 +4,16 @@ set -e
 
 python3 -m logtalk_kernel.install
 
-#mkdir eclipse
-#cd eclipse
-#wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/eclipse_basic.tgz
-#wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/eclipse_doc.tgz
-#wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/UNPACK
-#chmod a+x UNPACK
-#./UNPACK
-#echo -e "\n\n\n\n\n\n" | ./RUNME
-#echo 'export PATH=$PATH:$HOME/eclipse/bin/x86_64_linux' >> $HOME/.profile
-#cd ~
+mkdir eclipse
+cd eclipse
+wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/eclipse_basic.tgz
+wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/eclipse_doc.tgz
+wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/UNPACK
+chmod a+x UNPACK
+./UNPACK
+echo -e "\n\n\n\n\n\n" | ./RUNME
+echo 'export PATH=$PATH:$HOME/eclipse/bin/x86_64_linux' >> $HOME/.profile
+cd ~
 
 git clone --depth 1 https://github.com/didoudiaz/gprolog
 cd gprolog/src
