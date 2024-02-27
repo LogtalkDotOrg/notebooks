@@ -27,3 +27,4 @@ default-jdk
 junit4
 tcl
 tk
+graphviz
