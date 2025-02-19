@@ -10,7 +10,8 @@ allows you to save and share the notebooks you create.
 ## Jupyter kernel
 
 - Repo: https://github.com/LogtalkDotOrg/logtalk-jupyter-kernel
-- Package: https://pypi.org/project/logtalk-jupyter-kernel/
+- PyPI Package: https://pypi.org/project/logtalk-jupyter-kernel/
+- Conda Package: https://anaconda.org/conda-forge/logtalk-jupyter-kernel
 
 ## Supported Prolog backends
 
