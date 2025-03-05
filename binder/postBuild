@@ -32,7 +32,7 @@ ninja install
 echo 'export PATH=$PATH:$HOME/bin' >> $HOME/.profile
 cd ~
 
-git clone --depth 1 --branch v2.63.40 https://github.com/trealla-prolog/trealla
+git clone --depth 1 --branch v2.64.3 https://github.com/trealla-prolog/trealla
 cd trealla
 make clean && make NOSSL=1
 echo 'export PATH=$PATH:$HOME/trealla' >> $HOME/.profile
