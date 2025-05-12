@@ -1,2 +1,2 @@
-logtalk-jupyter-kernel==0.30.0
+logtalk-jupyter-kernel==0.31.0
 graphviz
