@@ -1,2 +1,4 @@
-logtalk-jupyter-kernel==0.31.0
+logtalk-jupyter-kernel==0.32.0
 graphviz
+matplotlib
+
