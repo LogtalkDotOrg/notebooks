@@ -17,10 +17,10 @@ allows you to save and share the notebooks you create.
 
 Online at https://mybinder.org you can currently use:
 
-- ECLiPSe 7.1#13
+- ECLiPSe 7.2#6
 - GNU Prolog 1.6.0 (git version)
-- SWI-Prolog 9.3.28 (default)
-- Trealla Prolog 2.82.14
+- SWI-Prolog 9.3.34 (default)
+- Trealla Prolog 2.84.29
 
 Local installation of the kernel supports several other Prolog backends. See
 the kernel repo for details. Limitations in the Docker images used by Binder

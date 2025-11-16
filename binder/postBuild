@@ -6,9 +6,9 @@ python3 -m logtalk_kernel.install
 
 mkdir eclipse
 cd eclipse
-wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/eclipse_basic.tgz
-wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/eclipse_doc.tgz
-wget http://eclipseclp.org/Distribution/CurrentRelease/7.1_13%20x86_64_linux%20Intel-64bit-Linux/UNPACK
+wget https://eclipseclp.org/Distribution/Dev/7.2_6/x86_64_linux/eclipse_basic.tgz
+wget https://eclipseclp.org/Distribution/Dev/7.2_6/x86_64_linux/eclipse_doc.tgz
+wget https://eclipseclp.org/Distribution/Dev/7.2_6/x86_64_linux/UNPACK
 chmod a+x UNPACK
 ./UNPACK
 echo -e "\n\n\n\n\n\n" | ./RUNME
@@ -21,7 +21,7 @@ cd gprolog/src
 echo 'export PATH=$PATH:$HOME/gprolog/bin' >> $HOME/.profile
 cd ~
 
-git clone --depth 1 --branch V9.3.28 https://github.com/SWI-Prolog/swipl-devel.git
+git clone --depth 1 --branch V9.3.34 https://github.com/SWI-Prolog/swipl-devel.git
 cd swipl-devel
 git submodule update --init
 mkdir build
@@ -32,7 +32,7 @@ ninja install
 echo 'export PATH=$PATH:$HOME/bin' >> $HOME/.profile
 cd ~
 
-git clone --depth 1 --branch v2.82.14 https://github.com/trealla-prolog/trealla
+git clone --depth 1 --branch v2.84.29 https://github.com/trealla-prolog/trealla
 cd trealla
 make clean && make NOSSL=1
 echo 'export PATH=$PATH:$HOME/trealla' >> $HOME/.profile
