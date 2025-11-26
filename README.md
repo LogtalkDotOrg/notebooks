@@ -19,8 +19,9 @@ Online at https://mybinder.org you can currently use:
 
 - ECLiPSe 7.1#13
 - GNU Prolog 1.6.0 (git version)
-- SWI-Prolog 9.3.34 (default)
-- Trealla Prolog 2.84.29
+- SWI-Prolog 9.3.35 (default)
+- Trealla Prolog 2.85.21
+- YAP 8.0.2 (git version)
 
 Local installation of the kernel supports several other Prolog backends. See
 the kernel repo for details. Limitations in the Docker images used by Binder
